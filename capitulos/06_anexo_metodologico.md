@@ -15,6 +15,23 @@ El teorema central que sostiene nuestra lectura es el siguiente:
 $$ \lim_{t \to \infty} \mathrm{Kl}(P_t || Q) \to \text{constante irreductible} $$
 Donde la "constante irreductible" no es la nada (el nihilismo), sino la obstinación de la consciencia, el *resto* que se niega a apagarse.
 
+```mermaid
+graph TD
+    subgraph Estado Inicial P_t
+        S[Saturación] --> Esp[Espacio / Escenario]
+        S --> C[Cuerpo Físico]
+        S --> L[Lenguaje Retórico]
+    end
+    
+    Esp -.->|Compresión| O(Filtro de Transducción)
+    C -.->|Mutilación| O
+    L -.->|Agotamiento| O
+    
+    subgraph Estado Asintótico Q
+        O --> V((Resto Irreductible<br>La Voz))
+    end
+```
+
 ## 3. Implementación Computacional
 Las pruebas formales se encuentran aisladas en el directorio `/teoria/` del repositorio, implementadas en Python puro para no contaminar la superficie de lectura:
 - `modelo_kl_d.py`: Motor aritmético que simula el colapso de las variables de los personajes a lo largo de su bibliografía.

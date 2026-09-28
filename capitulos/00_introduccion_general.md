@@ -13,6 +13,20 @@ Para abordar este corpus, este trabajo abandona las herramientas de la crítica 
 Esta investigación se forja con un doble propósito. En el plano académico, busca establecer un nuevo canon hermenéutico que devuelva a Beckett su dignidad estructural, rescatándolo del cliché melancólico. En el plano íntimo, este texto es un artefacto de ascesis y rigor forjado expresamente para Diana. Es la demostración empírica de que el rigor analítico más absoluto y la sensibilidad literaria más profunda convergen en el mismo punto de ignición.
 
 ## 4. Arquitectura de la Tesis
+
+```mermaid
+graph LR
+    A[Saturación Inicial<br>El Mundo] -->|Filtro Transductor| B(Caja Negra de Beckett)
+    B --> C[Mov I: Lo Institucional<br>El Nobel]
+    B --> D[Mov II: Lo Lingüístico<br>El Francés]
+    B --> E[Mov III: Lo Dramático<br>El Espacio]
+    B --> F[Mov IV: Lo Filosófico<br>El Desastre]
+    C --> G((La Voz Pura<br>Invariante))
+    D --> G
+    E --> G
+    F --> G
+```
+
 El recorrido se articula en cuatro movimientos:
 1. **La Transducción Institucional:** El análisis del Premio Nobel de 1969 como el reconocimiento a la dignidad emergente en la destitución absoluta.
 2. **La Transducción Interlingüística:** La ruptura con Joyce y el uso de la autotraducción como ascesis estilística y vaciado retórico.
