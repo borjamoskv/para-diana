@@ -10,12 +10,19 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 
 ## Qué hay aquí
 
-- `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, la autotraducción como filtro de notch, dinámica de estados finitos y el punto fijo «*I can't go on, I'll go on*».
-- `teoria/desmontaje_mitos_beckett.md` — **Desmontaje de 5 tópicos críticos:** Nihilismo vs. vodevil/music-hall, eremita vs. deportista y Resistencia francesa, simbolismo vs. literalidad de partitura, esnobismo vs. *«pour m'appauvrir»*, y la verdad del Nobel 1969.
-- `capitulos/01_arquitectura_doctoral_definitiva.md` — **Plan maestro de redacción:** Índice analítico de los cuatro capítulos (Nobel 1969, Autotraducción, Contracción corporal dramática y Persistencia del decir).
-- `capitulos/00_guia-de-arranque.md` — Las siete preguntas fundamentales de arquitectura y el esqueleto canónico.
-- `beckett-nobel-1969-redencion-hermeneutica.docx` / `.md` — Dossier crítico sobre el Nobel de 1969: el conflicto Österling–Gierow según los protocolos desclasificados de 50 años, filología del dictamen (*blottställdhet* → *resning*), falsación de la síntesis y coda formal.
-- `teoria/` — Formalización matemática complementaria en $\mathrm{Kl}(\mathcal{D})$, modelos de simulación (`modelo_kl_d.py`) y stress tests.
+### Manuscrito Completo de la Tesis (4 Capítulos Redactados)
+- `capitulos/capitulo_01_la_transduccion_institucional.md` — **Cap. 1: La Transducción Institucional.** El Nobel de 1969, la historia de la cláusula testamentaria, el veto de Österling y la filología de *blottställdhet* → *resning*.
+- `capitulos/capitulo_02_la_transduccion_interlinguistica.md` — **Cap. 2: La Transducción Interlingüística.** Ruptura con Joyce (1946), el francés como ascesis (*«pour m'appauvrir»*), el bucle de autotraducción y el cierre de *L'Innommable*.
+- `capitulos/capitulo_03_la_transduccion_dramatica.md` — **Cap. 3: La Transducción Dramática.** Del *slapstick* y el vodevil (*Godot*) a la asfixia espacial (*Fin de partie*, *Happy Days*), la boca de *Not I* y la dirección del Schiller Theater.
+- `capitulos/capitulo_04_el_punto_fijo_del_desastre.md` — **Cap. 4: El Punto Fijo del Desastre (Conclusión).** Más allá de Adorno y Badiou; la aporía *«I can't go on, I'll go on»*, la restitución de *Worstward Ho* y la dignidad como invariante.
+
+### Aparato Teórico y Metodológico
+- `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, filtro de notch y dinámica de estados finitos.
+- `teoria/desmontaje_mitos_beckett.md` — **Desmontaje de 5 tópicos críticos:** Falsación del nihilismo fúnebre, el eremita pasivo, la alegoría, el esnobismo y el premio a la desesperanza.
+- `capitulos/01_arquitectura_doctoral_definitiva.md` — Plan maestro de redacción y esquema analítico.
+- `capitulos/00_guia-de-arranque.md` — Las siete preguntas fundamentales de arquitectura.
+- `beckett-nobel-1969-redencion-hermeneutica.docx` / `.md` — Dossier crítico monográfico del Nobel de 1969.
+- `teoria/` — Formalización matemática complementaria en $\mathrm{Kl}(\mathcal{D})$ y simulaciones.
 - `fuentes-primarias/` — Facsímiles y documentos de archivo de la Academia Sueca.
 - `bibliografia/00_bibliografia-anotada.md` — Veinte entradas comentadas y categorizadas.
 - `fichas/00_plantilla-ficha.md` — Plantilla de lectura con protocolo estricto anti-apócrifos.
