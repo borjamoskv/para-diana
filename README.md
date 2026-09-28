@@ -20,6 +20,7 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 - `capitulos/capitulo_03_la_transduccion_dramatica.md` — **Cap. 3: La Transducción Dramática.** Del *slapstick* y el vodevil (*Godot*) a la asfixia espacial (*Fin de partie*, *Happy Days*), la boca de *Not I* y la dirección del Schiller Theater.
 - `capitulos/capitulo_04_el_punto_fijo_del_desastre.md` — **Cap. 4: El Punto Fijo del Desastre.** Más allá de Adorno y Badiou; la aporía *«I can't go on, I'll go on»*, la restitución de *Worstward Ho* y la dignidad como invariante.
 - `capitulos/05_conclusiones.md` — **Conclusiones Generales.** Las seis tesis fundamentales sobre la poética de la sustracción y la coda ética de la investigación.
+- `capitulos/06_anexo_metodologico.md` — **Anexo Metodológico.** La demostración matemática en silicio ($\mathrm{Kl}(\mathcal{D})$) que confina el rigor topológico en el subsuelo del texto.
 
 ### Aparato Teórico y Metodológico
 - `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, filtro de notch y dinámica de estados finitos.
