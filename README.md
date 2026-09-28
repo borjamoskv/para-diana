@@ -13,7 +13,8 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 
 ## Qué hay aquí
 
-### Manuscrito Completo de la Tesis (4 Capítulos + Conclusiones Generales)
+### Manuscrito Completo de la Tesis (Introducción, 4 Capítulos y Conclusiones)
+- `capitulos/00_introduccion_general.md` — **Introducción General.** El estado de la cuestión, la justificación transductiva y la arquitectura de la tesis.
 - `capitulos/capitulo_01_la_transduccion_institucional.md` — **Cap. 1: La Transducción Institucional.** El Nobel de 1969, la historia de la cláusula testamentaria, el veto de Österling y la filología de *blottställdhet* → *resning*.
 - `capitulos/capitulo_02_la_transduccion_interlinguistica.md` — **Cap. 2: La Transducción Interlingüística.** Ruptura con Joyce (1946), el francés como ascesis (*«pour m'appauvrir»*), el bucle de autotraducción y el cierre de *L'Innommable*.
 - `capitulos/capitulo_03_la_transduccion_dramatica.md` — **Cap. 3: La Transducción Dramática.** Del *slapstick* y el vodevil (*Godot*) a la asfixia espacial (*Fin de partie*, *Happy Days*), la boca de *Not I* y la dirección del Schiller Theater.
