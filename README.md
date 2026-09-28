@@ -1,6 +1,8 @@
-# Materiales Beckett — tesis de Diana
+# Para Diana
 
-Carpeta de trabajo del proyecto `diana-beckett` (creada el 10-08-2026).
+### Materiales Beckett y Arquitectura Formal de Tesis
+
+Carpeta de trabajo del proyecto `para-diana` (creada el 10-08-2026).
 
 ## Qué hay aquí
 
