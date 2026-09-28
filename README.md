@@ -46,6 +46,16 @@ Una vez descargadas, se pueden transcribir, traducir del sueco y cotejar con el 
 
 Knowlson, *Damned to Fame* (biografía de referencia) · Adorno, «Intento de entender *Fin de partida*» · Esslin, *El teatro del absurdo* · Espmark, *The Nobel Prize in Literature* (historia de la cláusula «idealista») · H. Simpson, «Samuel Beckett and the Nobel Catastrophe» (Oxford Research Archive) · Discurso de presentación de K. R. Gierow, 10-XII-1969 (nobelprize.org).
 
+## Compilación Editorial (PDF)
+
+El repositorio incluye un motor de renderizado asíncrono basado en Pandoc y Typst para compilar el manuscrito completo en un PDF maestro con tipografía prístina, índices automáticos y formato académico doctoral.
+
+Para generar el artefacto final, basta con ejecutar en terminal:
+```bash
+brew install pandoc typst
+./compile.sh
+```
+
 ## Cómo seguir
 
-Depositad aquí un índice o borrador y pedid (vía Cowork): revisión de capítulos, fichas de lectura, traducciones sueco/inglés/francés → español con original al lado, tabla de citas con fuente exacta, bibliografía anotada por capítulo, o formato final del manuscrito (Word con estilos, citas normalizadas).
+Depositad aquí un índice o borrador y pedid (vía Cowork): revisión de capítulos, fichas de lectura, traducciones sueco/inglés/francés → español con original al lado, tabla de citas con fuente exacta o bibliografía anotada por capítulo.
