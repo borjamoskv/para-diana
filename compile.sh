@@ -13,8 +13,11 @@ SRC_FILES=(
     "capitulos/06_anexo_metodologico.md"
 )
 
-# Preparar archivo maestro
-cat "${SRC_FILES[@]}" > manuscrito_maestro.md
+# Preparar archivo maestro inyectando saltos de línea para evitar colisiones
+for f in "${SRC_FILES[@]}"; do
+    cat "$f"
+    echo -e "\n\n"
+done > manuscrito_maestro.md
 
 if ! command -v pandoc &> /dev/null; then
     echo "[-] Anergía detectada: pandoc no está instalado."
@@ -24,6 +27,7 @@ if ! command -v pandoc &> /dev/null; then
 fi
 
 pandoc manuscrito_maestro.md \
+    -f markdown-yaml_metadata_block \
     -o "Tesis_Para_Diana_Borja_FA.pdf" \
     --pdf-engine=typst \
     -V papersize=a4 \

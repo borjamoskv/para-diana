@@ -1,0 +1,41 @@
+name: Deploy Tesis PDF
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Pandoc & Typst
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+        curl -sL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
+        sudo mv typst-*/typst /usr/local/bin/
+
+    - name: Build PDF
+      run: ./compile.sh
+
+    - name: Generate Tag
+      id: tag
+      run: echo "tag=$(date +'%Y.%m.%d-%H%M')" >> $GITHUB_OUTPUT
+
+    - name: Release PDF
+      uses: softprops/action-gh-release@v2
+      with:
+        files: Tesis_Para_Diana_Borja_FA.pdf
+        tag_name: v${{ steps.tag.outputs.tag }}
+        name: "Tesis PDF v${{ steps.tag.outputs.tag }}"
+        body: "Cristalización automatizada de la Tesis para Diana (Formato PDF)."
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
