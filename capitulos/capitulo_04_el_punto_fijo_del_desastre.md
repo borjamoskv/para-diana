@@ -1,8 +1,9 @@
 # Capítulo 4: El Punto Fijo del Desastre
 ## Más Allá del Nihilismo: La Persistencia del Decir y la Dignidad como Invariante
 
-**Por Diana**  
-*(Revisión y aparato crítico: Proyecto Para Diana)*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

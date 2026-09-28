@@ -1,8 +1,9 @@
 # Capítulo 3: La Transducción Dramática
 ## De la Pantomima a la Boca: Contracción Geométrica del Espacio y Reducción del Cuerpo
 
-**Por Diana**  
-*(Revisión y aparato crítico: Proyecto Para Diana)*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

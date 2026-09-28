@@ -1,8 +1,9 @@
 # Capítulo 1: La Transducción Institucional
 ## La Academia Sueca y el Conflicto Hermenéutico del Nobel de 1969
 
-**Por Diana**  
-*(Revisión y aparato crítico: Proyecto Para Diana)*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

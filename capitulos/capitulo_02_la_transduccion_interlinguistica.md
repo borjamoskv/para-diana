@@ -1,8 +1,9 @@
 # Capítulo 2: La Transducción Interlingüística
 ## La Autotraducción como Ascesis y Filtro de Sustracción
 
-**Por Diana**  
-*(Revisión y aparato crítico: Proyecto Para Diana)*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

@@ -1,7 +1,8 @@
 # Beckett como Transductor: Teoría de la Sustracción, Autotraducción y Dinámica de Estados
 
-**Por Borja Fernández Angulo & Diana**  
-*Marco Teórico Central para la Tesis Doctoral*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

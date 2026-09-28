@@ -1,7 +1,8 @@
 # Lo que se ignora de Beckett: Falsación de Cinco Tópicos y Restitución del Transductor
 
-**Por Borja Fernández Angulo & Diana**  
-*Material Crítico para la Tesis Doctoral — Proyecto Para Diana*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

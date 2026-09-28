@@ -1,7 +1,8 @@
 # Arquitectura Doctoral Definitiva: Índice Analítico y Plan de Redacción
 
-**Por Borja Fernández Angulo & Diana**  
-*Esquema Maestro de Tesis — Proyecto Para Diana*
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
 ---
 

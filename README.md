@@ -1,8 +1,11 @@
-# Para Diana
+# Para Diana: Tesis Doctoral de Borja Fernández Angulo
+### Beckett como Transductor: Filología de la Sustracción, Dinámica de Estados y la Persistencia del Decir
 
-### Materiales Beckett y Arquitectura Formal de Tesis
+**Por Borja Fernández Angulo**  
+*Investigador en Sistemas Complejos*  
+*(Tesis para Diana)*
 
-Carpeta de trabajo del proyecto `para-diana` (creada el 10-08-2026).
+---
 
 ## Eje Central de la Investigación: Beckett como Transductor
 
@@ -10,11 +13,12 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 
 ## Qué hay aquí
 
-### Manuscrito Completo de la Tesis (4 Capítulos Redactados)
+### Manuscrito Completo de la Tesis (4 Capítulos + Conclusiones Generales)
 - `capitulos/capitulo_01_la_transduccion_institucional.md` — **Cap. 1: La Transducción Institucional.** El Nobel de 1969, la historia de la cláusula testamentaria, el veto de Österling y la filología de *blottställdhet* → *resning*.
 - `capitulos/capitulo_02_la_transduccion_interlinguistica.md` — **Cap. 2: La Transducción Interlingüística.** Ruptura con Joyce (1946), el francés como ascesis (*«pour m'appauvrir»*), el bucle de autotraducción y el cierre de *L'Innommable*.
 - `capitulos/capitulo_03_la_transduccion_dramatica.md` — **Cap. 3: La Transducción Dramática.** Del *slapstick* y el vodevil (*Godot*) a la asfixia espacial (*Fin de partie*, *Happy Days*), la boca de *Not I* y la dirección del Schiller Theater.
-- `capitulos/capitulo_04_el_punto_fijo_del_desastre.md` — **Cap. 4: El Punto Fijo del Desastre (Conclusión).** Más allá de Adorno y Badiou; la aporía *«I can't go on, I'll go on»*, la restitución de *Worstward Ho* y la dignidad como invariante.
+- `capitulos/capitulo_04_el_punto_fijo_del_desastre.md` — **Cap. 4: El Punto Fijo del Desastre.** Más allá de Adorno y Badiou; la aporía *«I can't go on, I'll go on»*, la restitución de *Worstward Ho* y la dignidad como invariante.
+- `capitulos/05_conclusiones.md` — **Conclusiones Generales.** Las seis tesis fundamentales sobre la poética de la sustracción y la coda ética de la investigación.
 
 ### Aparato Teórico y Metodológico
 - `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, filtro de notch y dinámica de estados finitos.
