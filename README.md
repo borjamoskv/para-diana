@@ -11,12 +11,14 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 ## Qué hay aquí
 
 - `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, la autotraducción como filtro de notch, dinámica de estados finitos y el punto fijo «*I can't go on, I'll go on*».
-- `teoria/` — Formalización categórica en $\mathrm{Kl}(\mathcal{D})$, modelos de simulación (`modelo_kl_d.py`) y stress tests de singularidad.
-- `beckett-nobel-1969-redencion-hermeneutica.docx` / `.md` — dossier crítico sobre el Nobel de 1969: el conflicto Österling–Gierow según los protocolos desclasificados, filología del dictamen (*blottställdhet* → *resning*), falsación de la síntesis (Beckett mismo, Adorno, lectura institucional) y coda formal. Todas las citas están verificadas contra fuentes; los apócrifos que circulan están señalados en la nota metodológica.
-- `fuentes-primarias/` — facsímiles y documentos de archivo.
-- `bibliografia/00_bibliografia-anotada.md` — veinte entradas comentadas, agrupadas por uso (archivo, biografía, crítica, filosofía, caso Nobel, ediciones en español).
-- `capitulos/00_guia-de-arranque.md` — las siete preguntas que determinan la arquitectura de la tesis y los esqueletos de índice centrados en la transducción.
-- `fichas/00_plantilla-ficha.md` — plantilla de ficha de lectura con protocolo de verificación de citas.
+- `teoria/desmontaje_mitos_beckett.md` — **Desmontaje de 5 tópicos críticos:** Nihilismo vs. vodevil/music-hall, eremita vs. deportista y Resistencia francesa, simbolismo vs. literalidad de partitura, esnobismo vs. *«pour m'appauvrir»*, y la verdad del Nobel 1969.
+- `capitulos/01_arquitectura_doctoral_definitiva.md` — **Plan maestro de redacción:** Índice analítico de los cuatro capítulos (Nobel 1969, Autotraducción, Contracción corporal dramática y Persistencia del decir).
+- `capitulos/00_guia-de-arranque.md` — Las siete preguntas fundamentales de arquitectura y el esqueleto canónico.
+- `beckett-nobel-1969-redencion-hermeneutica.docx` / `.md` — Dossier crítico sobre el Nobel de 1969: el conflicto Österling–Gierow según los protocolos desclasificados de 50 años, filología del dictamen (*blottställdhet* → *resning*), falsación de la síntesis y coda formal.
+- `teoria/` — Formalización matemática complementaria en $\mathrm{Kl}(\mathcal{D})$, modelos de simulación (`modelo_kl_d.py`) y stress tests.
+- `fuentes-primarias/` — Facsímiles y documentos de archivo de la Academia Sueca.
+- `bibliografia/00_bibliografia-anotada.md` — Veinte entradas comentadas y categorizadas.
+- `fichas/00_plantilla-ficha.md` — Plantilla de lectura con protocolo estricto anti-apócrifos.
 
 ## Dos fuentes primarias para descargar a mano
 
