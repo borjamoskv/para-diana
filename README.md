@@ -4,12 +4,18 @@
 
 Carpeta de trabajo del proyecto `para-diana` (creada el 10-08-2026).
 
+## Eje Central de la Investigación: Beckett como Transductor
+
+La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la demiurgia aditiva, sino bajo el paradigma de **Beckett como Transductor**: un operador de sustracción, filtro de paso bajo lingüístico («*pour m'appauvrir*») y reducción asintótica a la máquina de estados mínima (Myhill-Nerode).
+
 ## Qué hay aquí
 
+- `teoria/beckett_como_transductor.md` — **Marco teórico maestro:** Teoría de la sustracción, la autotraducción como filtro de notch, dinámica de estados finitos y el punto fijo «*I can't go on, I'll go on*».
+- `teoria/` — Formalización categórica en $\mathrm{Kl}(\mathcal{D})$, modelos de simulación (`modelo_kl_d.py`) y stress tests de singularidad.
 - `beckett-nobel-1969-redencion-hermeneutica.docx` / `.md` — dossier crítico sobre el Nobel de 1969: el conflicto Österling–Gierow según los protocolos desclasificados, filología del dictamen (*blottställdhet* → *resning*), falsación de la síntesis (Beckett mismo, Adorno, lectura institucional) y coda formal. Todas las citas están verificadas contra fuentes; los apócrifos que circulan están señalados en la nota metodológica.
 - `fuentes-primarias/` — facsímiles y documentos de archivo.
 - `bibliografia/00_bibliografia-anotada.md` — veinte entradas comentadas, agrupadas por uso (archivo, biografía, crítica, filosofía, caso Nobel, ediciones en español).
-- `capitulos/00_guia-de-arranque.md` — las siete preguntas que determinan la arquitectura de la tesis y tres esqueletos de índice según el ángulo.
+- `capitulos/00_guia-de-arranque.md` — las siete preguntas que determinan la arquitectura de la tesis y los esqueletos de índice centrados en la transducción.
 - `fichas/00_plantilla-ficha.md` — plantilla de ficha de lectura con protocolo de verificación de citas.
 
 ## Dos fuentes primarias para descargar a mano
