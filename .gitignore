@@ -3,3 +3,7 @@
 *.tmp
 manuscrito_maestro.md
 *.pdf
+!FRASES_SIN_NATA_V3_LIBRO_COMPLETO.pdf
+chat_cortezas_*.txt
+borja_bloques_*.md
+borja_tecleados_*.txt

@@ -31,10 +31,17 @@ jobs:
     - name: Release PDF
       uses: softprops/action-gh-release@v2
       with:
-        files: Tesis_Para_Diana_Borja_FA.pdf
+        files: |
+          Tesis_Para_Diana_Borja_FA.pdf
+          FRASES_SIN_NATA_V3_LIBRO_COMPLETO.docx
+          FRASES_SIN_NATA_V3_LIBRO_COMPLETO.pdf
         tag_name: v${{ steps.tag.outputs.tag }}
-        name: "Tesis PDF v${{ steps.tag.outputs.tag }}"
-        body: "Cristalización automatizada de la Tesis para Diana (Formato PDF)."
+        name: "Tesis & Manuscrito V3 v${{ steps.tag.outputs.tag }}"
+        body: |
+          Cristalización automatizada para Diana:
+          - Tesis: Beckett como Transductor (PDF)
+          - Frases Sin Nata V3 / Cibernética para un mamón (DOCX interactivo con Prólogo Abierto)
+          - Frases Sin Nata V3 / Cibernética para un mamón (PDF maquetado 172 páginas)
         draft: false
         prerelease: false
       env:
