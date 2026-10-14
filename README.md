@@ -1,5 +1,10 @@
 # Para Diana: Tesis Doctoral de Borja Fernández Angulo
-### Beckett como Transductor: Filología de la Sustracción, Dinámica de Estados y la Persistencia del Decir
+
+> **Beckett como Transductor: Filología de la Sustracción, Dinámica de Estados Finitos (Myhill-Nerode) y la Persistencia del Decir.**
+
+[![CI Pipeline](https://img.shields.io/badge/CI_Workflow-Pandoc_%2B_Typst-brightgreen?style=flat-square)](https://github.com/borjamoskv/para-diana/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](./LICENSE)
+[![Formalism](https://img.shields.io/badge/Formalism-Kleisli_Kl(D)-0ea5e9?style=flat-square)](#architecture--transductive-model)
 
 **Por Borja Fernández Angulo**  
 *Investigador en Sistemas Complejos*  
@@ -7,11 +12,37 @@
 
 ---
 
-## Eje Central de la Investigación: Beckett como Transductor
+## ⚡ Quickstart & Editorial Compilation (PDF)
+
+El repositorio incluye un motor de renderizado asíncrono basado en Pandoc y Typst para compilar el manuscrito completo en un PDF maestro con tipografía prístina, índices automáticos y formato académico doctoral:
+
+```bash
+brew install pandoc typst
+./compile.sh
+```
+
+---
+
+## 🧬 Architecture & Transductive Model
+
+```mermaid
+flowchart TD
+    classDef input fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
+    classDef filter fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#f8fafc
+    classDef fixed fill:#450a0a,stroke:#f87171,stroke-width:2px,color:#f8fafc
+
+    A["Adición Demiúrgica (Joyce / Retórica Ornamental)"]:::input -->|"Ruptura de 1946"| B["Filtro de Paso Bajo Interlingüístico<br/>('pour m'appauvrir' · Francés ↔ Inglés)"]:::filter
+    B -->|"Cociente de Myhill-Nerode"| C["Compresión Espacial y Dramática<br/>(Godot ➔ Fin de partie ➔ Not I)"]:::filter
+    C -->|"Aporía: 'I can't go on, I'll go on'"| D["Punto Fijo Asintótico en Kl(D)<br/>(blottställdhet ➔ resning · Nobel 1969)"]:::fixed
+```
+
+### Eje Central de la Investigación: Beckett como Transductor
 
 La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la demiurgia aditiva, sino bajo el paradigma de **Beckett como Transductor**: un operador de sustracción, filtro de paso bajo lingüístico («*pour m'appauvrir*») y reducción asintótica a la máquina de estados mínima (Myhill-Nerode).
 
-## Qué hay aquí
+---
+
+## 📚 Qué hay aquí
 
 ### Manuscrito Completo de la Tesis (Introducción, 4 Capítulos y Conclusiones)
 - `capitulos/00_introduccion_general.md` — **Introducción General.** El estado de la cuestión, la justificación transductiva y la arquitectura de la tesis.
@@ -33,7 +64,9 @@ La tesis articula la obra de Samuel Beckett no desde el nihilismo pasivo ni la d
 - `bibliografia/00_bibliografia-anotada.md` — Veinte entradas comentadas y categorizadas.
 - `fichas/00_plantilla-ficha.md` — Plantilla de lectura con protocolo estricto anti-apócrifos.
 
-## Dos fuentes primarias para descargar a mano
+---
+
+## 🏛️ Dos fuentes primarias para descargar a mano
 
 El servidor de la Academia bloquea la descarga automatizada; en el navegador se abren sin problema. Guardarlas en `fuentes-primarias/`:
 
@@ -42,20 +75,12 @@ El servidor de la Academia bloquea la descarga automatizada; en el navegador se 
 
 Una vez descargadas, se pueden transcribir, traducir del sueco y cotejar con el dossier (las citas de los protocolos circulan hoy solo en versión inglesa de prensa).
 
-## Bibliografía de arranque
+## 📖 Bibliografía de arranque
 
 Knowlson, *Damned to Fame* (biografía de referencia) · Adorno, «Intento de entender *Fin de partida*» · Esslin, *El teatro del absurdo* · Espmark, *The Nobel Prize in Literature* (historia de la cláusula «idealista») · H. Simpson, «Samuel Beckett and the Nobel Catastrophe» (Oxford Research Archive) · Discurso de presentación de K. R. Gierow, 10-XII-1969 (nobelprize.org).
 
-## Compilación Editorial (PDF)
+---
 
-El repositorio incluye un motor de renderizado asíncrono basado en Pandoc y Typst para compilar el manuscrito completo en un PDF maestro con tipografía prístina, índices automáticos y formato académico doctoral.
+## 🛡️ License & Security
 
-Para generar el artefacto final, basta con ejecutar en terminal:
-```bash
-brew install pandoc typst
-./compile.sh
-```
-
-## Cómo seguir
-
-Depositad aquí un índice o borrador y pedid (vía Cowork): revisión de capítulos, fichas de lectura, traducciones sueco/inglés/francés → español con original al lado, tabla de citas con fuente exacta o bibliografía anotada por capítulo.
+Distributed under the **MIT License** (see [`LICENSE`](./LICENSE)). Primary archival verification rules follow the anti-apocrypha protocol in `fichas/00_plantilla-ficha.md`, `SECURITY.md`, and `CONTRIBUTING.md`.
